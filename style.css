@@ -13,6 +13,7 @@
 .mynav li a{
     top:58px;
     font-size:16px; 
+    font-weight: bold;
     
 }
 
@@ -23,10 +24,6 @@
     font-size:16px; 
 }
 
-.btn-default {
-    border: none;
-    background-color: #7ab1e0;       
-}
 
 .nav{
     margin-bottom: 49px;
@@ -85,6 +82,21 @@ p.panel-footer{
     
 }
 
+#contact{
+    background-color: #fff;
+    font-family: Lora;
+    
+}
+
+.mythumbnail2{
+    position: relative;
+    left: 53px;
+    top:21px;
+    width: 114%;
+    text-align: center
+
+}
+
 @media screen and (min-width :320px) and (max-width:568px){
     .mythumbnail1{
         position: relative;
@@ -98,5 +110,19 @@ p.panel-footer{
         
     position: relative;
     left: -11px;
+    }
+
+    #thumbnail{
+        position: relative;
+        top: 20px;
+    }
+
+    .mythumbnail2{
+        position: relative;
+        left: -5px;
+        top:21px;
+        width: 114%;
+        text-align: center
+    
     }
 }
