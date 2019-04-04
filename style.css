@@ -1,0 +1,102 @@
+.mynavbar-form{
+    margin-left: 363px;
+}
+
+.navbar-brand img{
+    position: relative;
+    width: 80px;
+    height: auto;
+    top:-4px;
+    
+}
+
+.mynav li a{
+    top:58px;
+    font-size:16px; 
+    
+}
+
+.mynav-pills li.active a{
+    background-color:#000; 
+    font-family: Lora;
+    font-weight: bold;
+    font-size:16px; 
+}
+
+.btn-default {
+    border: none;
+    background-color: #7ab1e0;       
+}
+
+.nav{
+    margin-bottom: 49px;
+}
+
+.mycontainer{
+    margin-top: 10px;
+    position: relative;
+    bottom: -20px;
+    
+    
+
+}
+
+body{
+    background-color:black;
+    font-family: Lora
+}
+
+.mythumbnail1{
+  position: relative;
+  left: -5px;
+  top:21px;
+  width: 114%;
+  text-align: center
+  
+}
+
+.thumbnail img{
+    position: relative;
+    
+}
+
+.thumbnail .caption{
+    color:white;
+}
+
+.thumbnail{
+    background-color:black; 
+    border: none;
+}
+
+.panel-footer{
+    background-color:black; 
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    left: -61px;
+    
+}
+
+p.panel-footer{
+    text-align: center;
+    font-weight: bold;  
+    
+}
+
+@media screen and (min-width :320px) and (max-width:568px){
+    .mythumbnail1{
+        position: relative;
+        left: -21px;
+        top:20px;
+        width: 122%;
+        text-align: center
+    }
+
+    .panel-footer{
+        
+    position: relative;
+    left: -11px;
+    }
+}
