@@ -17,6 +17,7 @@
     
 }
 
+
 .mynav-pills li.active a{
     background-color:#000; 
     font-family: Lora;
@@ -24,18 +25,14 @@
     font-size:16px; 
 }
 
-
 .nav{
     margin-bottom: 49px;
 }
 
 .mycontainer{
-    margin-top: 10px;
+    margin-top: -40px;
     position: relative;
     bottom: -20px;
-    
-    
-
 }
 
 body{
@@ -47,14 +44,12 @@ body{
   position: relative;
   left: -5px;
   top:21px;
-  width: 114%;
+  width: 100%;
   text-align: center
-  
 }
 
 .thumbnail img{
-    position: relative;
-    
+    position: relative;   
 }
 
 .thumbnail .caption{
@@ -72,20 +67,17 @@ body{
     text-align: center;
     font-weight: bold;
     position: relative;
-    left: -61px;
-    
+    left: -61px;   
 }
 
 p.panel-footer{
     text-align: center;
-    font-weight: bold;  
-    
+    font-weight: bold;     
 }
 
 #contact{
     background-color: #fff;
-    font-family: Lora;
-    
+    font-family: Lora;    
 }
 
 .mythumbnail2{
@@ -94,20 +86,38 @@ p.panel-footer{
     top:21px;
     width: 114%;
     text-align: center
+}
 
+.logo_text.logo_text2{
+    color: white
+}
+
+.logo_text{
+    position: relative;
+    top: 12px;
 }
 
 @media screen and (min-width :320px) and (max-width:568px){
+    
+    .logo_text2{
+        position: relative;
+        left: 83px;
+        top: -28px;
+    }
+
+    #hidden{
+        display: none;
+    }
+
     .mythumbnail1{
         position: relative;
         left: -21px;
         top:20px;
-        width: 122%;
+        width: 126%;
         text-align: center
     }
 
-    .panel-footer{
-        
+    .panel-footer{    
     position: relative;
     left: -11px;
     }
@@ -123,6 +133,26 @@ p.panel-footer{
         top:21px;
         width: 114%;
         text-align: center
-    
+    }
+
+    .mycontainer{
+        margin-top: -40px;
+        position: relative;
+        bottom: -20px;
+        width: 114%;
+        left: -15px;
+    }
+
+    .collapse {
+        display: none;
+        margin-top: -69px;
+    }
+
+    .navbar-collapse {
+        padding-right: 14px;
+    }
+
+    .navbar{
+        width:334px;
     }
 }
