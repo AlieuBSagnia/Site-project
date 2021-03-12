@@ -1,4 +1,4 @@
-# sparta-site-project
+# Site-project
 
 ## The task was to create a website utilizing
 
